@@ -23,18 +23,17 @@ a:hover {
   color: #535bf2;
 }
 
-body {
+* {
+develop
   margin: 0;
-  display: flex;
-  place-items: center;
-  min-width: 320px;
-  min-height: 100vh;
+  padding: 0;
+  box-sizing: border-box;
 }
 
-h1 {
-  font-size: 3.2em;
-  line-height: 1.1;
+html {
+  scroll-behaviour: smooth;
 }
+
 
 button {
   border-radius: 8px;
@@ -69,6 +68,10 @@ button:focus-visible {
 } */
 
 :root {
-  --color1: #1d3d50;
-  --color2: #ffeeff;
+  --background: #fefefe;
+  --white: #fefefe;
+  --blue-1: #1d3d50;
+  --blue-2: #5090ac;
+  --grey: #d9d9d9;
+  --yellow: #f9c74b;
 }
