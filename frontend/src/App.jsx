@@ -9,9 +9,11 @@ function App() {
     <>
       <Router>
         <Routes>
-          <Route path='/' element={<Home></Home>} />
-          <Route path='/about' element={<About></About>} />
-          <Route path='/contact' element={<Contact></Contact>} />
+          <Navbar />
+            <Route path='/' element={<Home></Home>} />
+            <Route path='/about' element={<About></About>} />
+            <Route path='/contact' element={<Contact></Contact>} />
+          <Footer />
         </Routes>
       </Router>  
     </>
