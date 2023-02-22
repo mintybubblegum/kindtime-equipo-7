@@ -15,6 +15,7 @@ class Service extends Model
      * @var array<int, string>
      */
     protected $fillable = [
+      'service-img',
       'name',
       'title',
       'description-sm',
