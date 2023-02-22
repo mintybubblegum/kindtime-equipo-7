@@ -12,9 +12,9 @@ class ServiceFactory extends Factory
     /**
      * Define the model's default state.
      *
-     * @return array<string, mixed>
+     * @return array<string, mixed>  
      */
-    public function definition(): array
+    public function definition(): array 
     {
         return [
           'service-img' => fake()->imageUrl(640, 400, 'cats'),
