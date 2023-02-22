@@ -23,3 +23,4 @@ Route::get('/home', [App\Http\Controllers\ServiceController::class, 'index']);
 
 //Show
 Route::get('/show/{id}', [ServiceController::class, 'show'])->name('showService');
+
