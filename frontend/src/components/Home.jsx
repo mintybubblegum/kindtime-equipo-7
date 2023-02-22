@@ -1,7 +1,8 @@
 import React from 'react'
+import Navbar from './partials/Navbar/Navbar'
 
 export default function Home() {
   return (
-    <div>Home</div>
+    <div> <Navbar></Navbar> </div>
   )
 }
