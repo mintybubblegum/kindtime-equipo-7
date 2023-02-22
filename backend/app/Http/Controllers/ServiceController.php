@@ -10,7 +10,7 @@ class ServiceController extends Controller
   public function index()
   {
     $services = Service::get();
-    return view('home', compact('services'));
+    return view('home', compact('services')); 
   }
 
   public function show($id)
