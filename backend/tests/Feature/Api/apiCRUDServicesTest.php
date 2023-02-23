@@ -15,7 +15,7 @@ class apiCRUDServicesTest extends TestCase
     use RefreshDatabase;
 	
 	/** @test */
-	public function canGetAllServices()
+	public function test_canGetAllServices()
 	{
 		// Create Property so that the response returns it.
 		$service = Service::factory()->create();
@@ -28,4 +28,15 @@ class apiCRUDServicesTest extends TestCase
 		// from the response.
 	
 	}
+
+
+
+    public function test_listServiceAppearInJson() {
+        $this->withExceptionHandling();
+        $services = Service::factory(9)->create();
+        $service = $services[0];
+        $response = $this->getJson(route('servicesApi'));
+        $response->assertJsonFragment(['title' => $service->title]);
+        $response->assertStatus(200);
+    }
 }

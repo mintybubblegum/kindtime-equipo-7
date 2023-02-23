@@ -60,7 +60,6 @@ class ServiceController extends Controller
         return $service;
     }
 
-  
     public function destroy($id)
     {
         Service::find($id)->delete();
