@@ -4,17 +4,27 @@ import Card from '../components/partials/Card'
 import axios from 'axios'
 
 export default function Home() {
-  const [data, setData] = useState([])
-
-  const getData = async () => {
-    const { data } = await axios.get('http://localhost:8000/api/services');
-    setData(data.services)
-    console.log(data.services)
-  }
+  const [data, setData] = useState(null);
+  const [loading, setLoading] = useState(true);
+  const [error, setError] = useState(null);
 
   useEffect(() => {
-    getData()
-  }, [])
+    const getData = async () => {
+      try {
+        const response = await axios.get(
+          `https://jsonplaceholder.typicode.com/posts?_limit=10`
+        );
+        setData(response.data);
+        setError(null);
+      } catch (err) {
+        setError(err.message);
+        setData(null);
+      } finally {
+        setLoading(false);
+      }
+    };
+    getData();
+  }, []);
 
   return (
     <div className="px-6 mt-6 mb-6 flex flex-col justify-center gap-6 md:px-12 lg:px-40">
@@ -24,7 +34,7 @@ export default function Home() {
       {data && data.map((service)=>{
         return(
           <div>
-            <h1>{service.name}</h1>
+            <h1>{service.id}</h1>
             <p>{service.title}</p>
           </div>
         )
