@@ -1,4 +1,5 @@
 import React from "react";
+import Card from "../partials/Card";
 import styles from "./Ad.module.css";
 
 const Ad = ({ ad }) => {
@@ -28,6 +29,7 @@ const Ad = ({ ad }) => {
         </div>
       </div>
     </div>
+    // <Card />
   );
 };
 
