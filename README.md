@@ -85,7 +85,6 @@ This project is part of Hackathon F5 with 'Fundación La Caixa' as our client. W
 - React JS
 - Laravel Framework 9.44.0
 - MySQL
-- DrawSQL
 - Axios
 ***
 
