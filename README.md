@@ -59,7 +59,7 @@ This project is part of Hackathon F5 with 'Fundación La Caixa' as our client. W
 | Alexander Romero | Developer| https://github.com/ChaanChanChan |
 | Valery Suárez | Developer| https://github.com/ValerySuarez22 |
 | Maricarmen Chueco | Developer| https://github.com/marchuovi |
-| Maria Giménez | Developer | https://github.com/marchuovi |
+| Maria Giménez | Developer | https://github.com/MeryGF |
 
 ***
 
