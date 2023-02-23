@@ -1,0 +1,15 @@
+@font-face{
+    font-family: 'Inter';
+    src: url(/fonts/Inter/static/Inter-Regular.ttf);
+}
+@font-face {
+    font-family: 'work-sans-Bold';
+    src: url(/fonts/work-sans/static/WorkSans-SemiBold.ttf);
+}
+.navbar{
+background-color:#1D3D50 !important;
+font-family: 'work-sans';
+font-size: large;
+font-style: bold; 
+}
+

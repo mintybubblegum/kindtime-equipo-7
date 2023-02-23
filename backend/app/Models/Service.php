@@ -9,6 +9,19 @@ class Service extends Model
 {
     use HasFactory;
 
+    static $rules = [
+      'serviceImg' => 'required',
+      'name' => 'required',
+      'title'=> 'required',
+      'descriptionSm'=> 'required',
+      'descriptionLg'=> 'required',
+      'location'=> 'required',
+      'email'=> 'required',
+  ];
+
+
+
+
     /**
      * The attributes that are mass assignable.
      *

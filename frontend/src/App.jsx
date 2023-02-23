@@ -1,11 +1,11 @@
-import './App.css'
-import { BrowserRouter as Router, Routes, Route } from 'react-router-dom'
-import Home from './components/Home'
-import About from './components/About'
-import Contact from './components/Contact'
-import Service from './components/Service'
-import Navbar from './components/partials/Navbar'
-import Footer from './components/partials/Footer'
+import "./App.css";
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import Home from "./components/Home";
+import About from "./components/About";
+import Contact from "./components/Contact";
+import Service from "./components/Service";
+import Navbar from "./components/partials/Navbar";
+import Footer from "./components/partials/Footer";
 
 function App() {
   return (
@@ -19,9 +19,9 @@ function App() {
             <Route path='/service/:id' element={<Service></Service>} />
           </Routes>
         <Footer />
-      </Router>  
+      </Router>
     </>
-  )
+  );
 }
 
-export default App
+export default App;

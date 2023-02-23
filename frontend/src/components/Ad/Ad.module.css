@@ -1,0 +1,24 @@
+.card {
+  width: 18rem;
+  justify-self: center;
+  border-radius: 0;
+}
+.cardImgTop {
+  border-radius: 0;
+}
+
+.cardBtnsContainer {
+  display: flex;
+  justify-content: space-between;
+}
+.btn {
+  border-radius: 50px;
+  width: 114px;
+  height: 40px;
+  text-align: center;
+}
+
+.btnMore {
+  background-color: var(--color1);
+  color: var(--color2);
+}
