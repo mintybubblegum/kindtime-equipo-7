@@ -16,13 +16,7 @@ export default function Navbar() {
               alt="Kindtime Logo"
             />
           </a>
-          <button
-            data-collapse-toggle="navbar-default"
-            type="button"
-            className="inline-flex items-center p-2 ml-3 text-sm text-gray-500 rounded-lg md:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200 dark:text-white dark:hover:bg-blue dark:focus:ring-gray-600"
-            aria-controls="navbar-default"
-            aria-expanded="false"
-          >
+          <button data-collapse-toggle="navbar-default" type="button" className="inline-flex items-center p-2 ml-3 text-sm text-dark-blue rounded-lg md:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200 dark:text-white dark:hover:bg-blue dark:focus:ring-gray-600" aria-controls="navbar-default" aria-expanded="false">
             <span className="sr-only">Open main menu</span>
             <svg
               className="w-6 h-6"
@@ -39,10 +33,7 @@ export default function Navbar() {
             </svg>
           </button>
           <div className="hidden w-full md:block md:w-auto" id="navbar-default">
-            <ul
-              className="flex flex-col p-4 mt-4 border border-gray-100 rounded-lg bg-dark-blue md:flex-row md:space-x-8 md:mt-0 md:text-medium md:font-medium md:border-0 md:bg-white dark:bg-white md:dark:bg-dark-blue dark:border-gray-700"
-              data-testid="linksList"
-            >
+            <ul className="flex flex-col p-4 mt-4 border border-gray-100 rounded-lg bg-dark-blue md:flex-row md:space-x-8 md:mt-0 md:text-medium md:font-medium md:border-0 md:bg-dark-blue dark:bg-blue md:dark:bg-dark-blue dark:border-gray-700">
               <li>
                 <a
                   href="/"
@@ -54,22 +45,10 @@ export default function Navbar() {
                 </a>
               </li>
               <li>
-                <a
-                  href="/about"
-                  className="block py-2 pl-3 pr-4 text-white rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-gray-400 md:dark:hover:text-yellow dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent"
-                  data-testid="outLink"
-                >
-                  About
-                </a>
+                <a href="/about" className="block py-2 pl-3 pr-4 text-white rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-white md:dark:hover:text-yellow dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent">About</a>
               </li>
               <li>
-                <a
-                  href="/contact"
-                  className="block py-2 pl-3 pr-4 text-white rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-gray-400 md:dark:hover:text-yellow dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent"
-                  data-testid="outLink"
-                >
-                  Contact
-                </a>
+                <a href="/contact" className="block py-2 pl-3 pr-4 text-white rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-white md:dark:hover:text-yellow dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent">Contact</a>
               </li>
             </ul>
           </div>
