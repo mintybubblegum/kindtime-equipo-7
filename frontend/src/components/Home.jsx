@@ -18,7 +18,6 @@ export default function Home() {
       </center>
       <Searchbar />
       <Card />
-      <AdList />
     </div>
   );
 }
