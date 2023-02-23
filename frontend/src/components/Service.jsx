@@ -6,7 +6,7 @@ export default function Service() {
   return (
     <div className="mt-4">
       <Searchbar />
-      <div className="mt-4 max-w-sm bg-dark-blue border border-gray rounded-lg shadow dark:bg-blue dark:border-gray-700">
+      <div className="mt-4 mb-6 max-w-sm bg-dark-blue border border-gray rounded-lg shadow dark:bg-blue dark:border-gray-700">
         <a href="#">
             <img className="rounded-t-lg" src={ BoardGames } alt="img" />
         </a>
