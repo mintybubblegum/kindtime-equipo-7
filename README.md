@@ -1,8 +1,12 @@
 #  👵🏼👨✨KindTime✨👴🏿👩‍🦰
 
+⚠️OUR STABLE AND LATEST VERSION IS CURRENTLY IN DEVELOP⚠️
+
 Our motto: 'We share life with your local elders. Join the community!'
 
-We have developed this marketplace framed in the category of community services to the elderly, Aportando  al bienestar de todo el entorno familiar y mejorar la atención a este colectivo vulnerable .
+We have developed this marketplace framed in the category of community services to the elderly, contributing to their wellness and their loved ones. Doing so we improve the support of this vulnerable collective.
+
+During COVID-19 times our elders were a part of the population that suffered the most, due to isolation, lack of physical and emotional contact. All of this had a detrimental effect in their mental health and wellbeing overall. That's the main reason why we developed this marketplace. We would like to create a space for them where society will be spending their time with the elderly to give something in return for everything they did when they were younger.
 
 ***
 
@@ -11,6 +15,22 @@ This project is part of Hackathon F5 with 'Fundación La Caixa' as our client. W
 - What kind of content are you going to have in it?
 - Who is your target audience?
 - How are you going to improve people's lives?
+
+2. CHOOSE A CATCHY NAME
+3. SHAPE THE CONTENT OF YOUR CARDS
+- Which attributes does your card have?
+- Which values could those attributes take?
+- Which attributes are mandatory and which ones aren't?
+
+4. ADD BASIC FUNCTIONALITY
+- Homepage with card lists
+- Show view of a specific card
+
+5. ADD EXTRA FUNCTIONALITIES
+- Contact form to be in touch with the company (in development)
+- Search bar (in development)
+- About us (in development)
+- Contact the client (in development)
 
 ***
 
@@ -30,13 +50,14 @@ This project is part of Hackathon F5 with 'Fundación La Caixa' as our client. W
 | Name | Role | <img src="https://github.com/Yelose/Yelose/blob/main/img/github.png" width="30px" height="30px"> |
 | :--- | :---: | :---: |
 | Paloma Babot |  Scrum Master | https://github.com/Uxoa |
-| Noa Trujillo | Developer| https://github.com/mintybubblegum |
 | Guillem Martínez | Product Owner | https://github.com/guillemmj33 |
+| Noa Trujillo | Developer| https://github.com/mintybubblegum |
 | Mila Galiano | Developer | https://github.com/Beadeavila |
 | Jaume Vidal | Developer | https://github.com/JaumeViBu |
 | Alexander Romero | Developer| https://github.com/ChaanChanChan |
 | Valery Suárez | Developer| https://github.com/ValerySuarez22 |
 | Maricarmen Chueco | Developer| https://github.com/marchuovi |
+| Maria Giménez | Developer | https://github.com/marchuovi |
 
 ***
 
@@ -46,9 +67,10 @@ This project is part of Hackathon F5 with 'Fundación La Caixa' as our client. W
 
 | Home view sketch | Show view sketch | Home view mockup | Show view mockup | Create view mockup |
 | --- | --- | --- | --- | --- |
-| <img style="width:150px;" src="https://user-images.githubusercontent.com/98114939/210433972-aea85b9d-5f19-4af2-96bd-72ec35a681ea.png" alt="Home view"/> | <img style="width:150px;" src="https://user-images.githubusercontent.com/98114939/210434007-f0b7288b-e031-472a-8cd2-6970ef1cc6d5.png" alt="Show view"/> | <img style="width:150px;" src="https://user-images.githubusercontent.com/98114939/210436616-e26a4ff3-1b9a-4caa-98d1-c6f48d1fcb68.png" alt="Home view"/> | <img style="width:150px;" src="https://user-images.githubusercontent.com/98114939/210436641-37b45b15-5685-4f98-b051-ed40e0f3780d.png" alt="Show view"/> | <img style="width:75px;" src="https://user-images.githubusercontent.com/98114939/211341367-187230a2-f308-4399-850c-82a564ad443e.png" alt="Create view"/> |
+| <img style="width:150px;" src="/frontend/public/readme-img/sketch-view.png" alt="Home view"/> | <img style="width:150px;" src="/frontend/public/readme-img/sketch-show.png/210434007-f0b7288b-e031-472a-8cd2-6970ef1cc6d5.png" alt="Show view"/> | <img style="width:150px;" src="/frontend/public/readme-img/view.png" alt="Home view"/> | <img style="width:150px;" src="/frontend/public/readme-img/show.png" alt="Show view"/>
 
 </div>
+
 
 ***
 
@@ -125,8 +147,8 @@ To run the tests, execute the following command(s)
 
 ## Methodology
 - TDD
-- Agile with Scrum
-- Mob and pair programming
+- Agile with SCRUM
+- Pair and solo programming
 ***
 
 ## Next Steps
