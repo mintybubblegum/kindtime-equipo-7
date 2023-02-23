@@ -7,7 +7,7 @@ export default function Navbar() {
       <nav className="bg-dark-blue border-gray-200 px-2 sm:px-4 py-2.5 dark:bg-gray-900">
         <div className="container flex flex-wrap items-center justify-between mx-auto">
           <a href="/" className="flex items-center">
-              <img src={ Kindtime } className="h-10 mr-3 sm:h-12" alt="Kindtime Logo" />
+              <img src={ Kindtime } className="h-9 mr-3 sm:h-11" alt="Kindtime Logo" />
           </a>
           <button data-collapse-toggle="navbar-default" type="button" className="inline-flex items-center p-2 ml-3 text-sm text-gray-500 rounded-lg md:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200 dark:text-white dark:hover:bg-blue dark:focus:ring-gray-600" aria-controls="navbar-default" aria-expanded="false">
             <span className="sr-only">Open main menu</span>
