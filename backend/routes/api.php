@@ -8,14 +8,3 @@ Route::get('/', [App\Http\Controllers\Api\ServiceController::class, 'index'])->n
 
 
 Route::apiResource('services', ServiceController::class );
-
-
-// Route::get('services', 'ServiceController@index');
-// Route::get('services/{id}', 'ServiceController@show');
-// Route::post('services', 'ServiceController@store');
-// Route::put('services/{id}', 'ServiceController@update');
-<<<<<<< HEAD
-// Route::delete('services/{id}', 'ServiceController@delete');
-=======
-// Route::delete('services/{id}', 'ServiceController@delete');
->>>>>>> guillemDev
