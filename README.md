@@ -71,17 +71,17 @@ You will need a text editor and perform the following steps:
 
 1. Clone the project
 ```bash
-  git clone https://github.com/mintybubblegum/ecoOnWheels.git
+  https://github.com/kindtime-equipo-7/kindtime-equipo-7.git
 ```
 
 2. Go to the project directory
 ```bash
-  cd ecoOnWheels
+  cd kindtime-equipo-7
 ```
 
-3. Start MySQL service and create a MySQL database named "ecoonwheels"
+3. Start MySQL service and create a MySQL database named "kindtime-equipo-7"
 
-4. Create in the text editor an .env file by copying the contents of .env.example and modify the database name (laravel by ecoonwheels)
+4. Create in the text editor an .env file by copying the contents of .env.example and modify the database name (kindtime-equipo-7 by kindtime-equipo-7)
 
 5. Install dependencies
 ```bash
