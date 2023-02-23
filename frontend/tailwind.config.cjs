@@ -5,6 +5,9 @@ module.exports = {
     "./src/**/*.{js,ts,jsx,tsx}",
   ],
   theme: {
+    backgroundImage: {
+      'about': "url('./assets/about.jpg')"
+    },
     extend: {},
     colors: {
       'blue': '#5090AC',
