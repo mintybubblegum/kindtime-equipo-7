@@ -8,8 +8,8 @@ use App\Http\Controllers\ServiceController;
 //     return view('welcome');
 // })->where('path' , '.*');
 
-Route::get('/services', 'Api\CategoryController@index');
-Route::post('/store', 'Api\CategoryController@store');
-Route::delete('/delete/{id}', 'Api\CategoryController@destroy');
-Route::get('edit/{id}', 'Api\CategoryController@edit');
-Route::put('update/{id}', 'Api\CategoryController@update');
+Route::get('/services', 'Api\ApiController@index');
+Route::post('/store', 'Api\ApliController@store');
+Route::delete('/delete/{id}', 'Api\ApiController@destroy');
+Route::get('edit/{id}', 'Api\ApiController@edit');
+Route::put('update/{id}', 'Api\ApiController@update');

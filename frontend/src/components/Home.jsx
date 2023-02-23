@@ -7,7 +7,7 @@ export default function Home() {
   const [data, setData] = useState([])
 
   const getData = async () => {
-    const { data } = await axios.get('http://localhost:8000/api/services');
+    const { data } = await axios.get('http://localhost:8000/api/servicesApi');
     setData(data.services)
     console.log(data.services)
   }
