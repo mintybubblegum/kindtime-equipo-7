@@ -6,5 +6,4 @@ use App\Http\Controllers\Api\ServiceController;
 
 Route::get('/', [App\Http\Controllers\Api\ServiceController::class, 'index'])->name('servicesApi');
 
-
 Route::apiResource('services', ServiceController::class );
