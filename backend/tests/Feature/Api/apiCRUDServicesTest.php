@@ -11,16 +11,14 @@ class apiCRUDServicesTest extends TestCase
 {
     use RefreshDatabase;
 	
-	public function test_canGetAllServices()
+	public function test_canGetAllServicesFromDb()
 	{
-
 		$service = Service::factory()->create();
 		
 		$response = $this->getJson(route('servicesApi'));
 
 		$response->assertOk(); 
 
-  
 		$response->assertJson([
 			'services' => [
 				[
@@ -35,10 +33,7 @@ class apiCRUDServicesTest extends TestCase
 				]
 			]
 		]);
-	
 	}
-
-
 
     public function test_listServiceAppearInJson() {
         $this->withExceptionHandling();
@@ -48,4 +43,38 @@ class apiCRUDServicesTest extends TestCase
         $response->assertJsonFragment(['title' => $service->title]);
         $response->assertStatus(200);
     }
+
+    public function test_canGetAServiceById()
+    {
+        $service = Service::factory()->create();
+
+        $response = $this->get('/api/services/'.$service->id);
+
+        $response->assertOk()
+                ->assertJsonFragment(['name' => $service->name]);
+    }
+
+    public function test_canUpdateAService()
+    {
+        $service = Service::factory()->create();
+        $data = ['name' => 'Updated Service'];
+
+        $response = $this->put('/api/services/'.$service->id, $data);
+
+        $response->assertOk()
+                ->assertJsonFragment(['name' => 'Updated Service']);
+
+        $this->assertDatabaseHas('services', $data);
+    }
+
+    public function test_canDeleteAService()
+    {
+        $service = Service::factory()->create();
+
+        $response = $this->deleteJson('/api/services/'.$service->id);
+
+        $response->assertStatus(200);
+
+        $this->assertDatabaseMissing('services', $service->toArray());
+	}
 }
