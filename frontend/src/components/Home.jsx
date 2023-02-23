@@ -1,5 +1,4 @@
 import React, { useState, useEffect }  from 'react'
-import React, { useState, useEffect }  from 'react'
 import Searchbar from './partials/Searchbar'
 import Card from '../components/partials/Card'
 import axios from 'axios'
@@ -13,7 +12,7 @@ export default function Home() {
     const getData = async () => {
       try {
         const response = await axios.get(
-          `https://jsonplaceholder.typicode.com/posts?_limit=10`
+          `localhost:8000/api/`
         );
         setData(response.data);
         setError(null);

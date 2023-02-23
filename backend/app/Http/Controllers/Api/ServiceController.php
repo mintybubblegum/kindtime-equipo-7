@@ -17,7 +17,7 @@ class ServiceController extends Controller
         //
         $services = Service::all();
         return response()->json(['services'=> $services]);
-        
+
     }
 
     /**
@@ -34,7 +34,7 @@ class ServiceController extends Controller
         $service = new Service();
         $service->name = $request->name;
         $service->save();
-    
+
         return response()->json(['message' => 'Service created successfully', 'service' => $service], 201);
     }
 
@@ -45,13 +45,13 @@ class ServiceController extends Controller
         return view('show', compact('service'));
     }
 
-   
+
     public function edit($id)
     {
         return Service::find($id);
     }
 
-   
+
     public function update(Request $request, $id)
     {
         $service = Service::find($id);
