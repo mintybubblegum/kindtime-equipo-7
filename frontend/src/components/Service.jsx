@@ -31,7 +31,7 @@ export default function Service() {
               <a href="/" className="inline-flex items-center px-3 py-2 text-sm font-bold text-center text-white bg-dark-blue rounded-lg hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-slate-800 dark:hover:bg-blue-700 dark:focus:ring-blue-800">
                 <i class="fa-solid fa-arrow-left"></i>&nbsp;Back
               </a>
-              <a href="/service" className="inline-flex items-center px-3 py-2 text-sm font-bold text-center text-dark-blue bg-yellow rounded-lg hover:text-white hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-slate-800 dark:hover:bg-blue-700 dark:focus:ring-blue-800">
+              <a href={`mailto:${post.email}`} className="inline-flex items-center px-3 py-2 text-sm font-bold text-center text-dark-blue bg-yellow rounded-lg hover:text-white hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-slate-800 dark:hover:bg-blue-700 dark:focus:ring-blue-800">
                   Contact
               </a>
             </div>
