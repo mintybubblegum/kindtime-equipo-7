@@ -12,8 +12,9 @@ export default function Home() {
     const getData = async () => {
       try {
         const response = await axios.get(
-          `localhost:8000/api/`
+          'http://localhost:8000/api/services'
         );
+        console.log(response.data)
         setData(response.data);
         setError(null);
       } catch (err) {
@@ -31,11 +32,10 @@ export default function Home() {
       <center><h1 className="text-2xl font-light italic text-dark-blue">We share <span className="font-bold">life</span> with your local elders. Join the <span className="underline decoration-yellow decoration-2 underline-offset-8">community</span>!</h1></center>
       <Searchbar />
       <Card />
-      {data && data.map((service)=>{
+      {data && data.services.map((service)=>{
         return(
           <div>
             <h1>{service.id}</h1>
-            <p>{service.title}</p>
           </div>
         )
       })}
