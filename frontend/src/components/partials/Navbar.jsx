@@ -9,8 +9,12 @@ export default function Navbar() {
         data-testid="navbar"
       >
         <div className="container flex flex-wrap items-center justify-between mx-auto">
-          <a href="/" className="flex items-center">
-              <img src={ Kindtime } className="h-9 mr-3 sm:h-11" alt="Kindtime Logo" />
+          <a href="/" className="flex items-center" data-testid="logoLink">
+            <img
+              src={Kindtime}
+              className="h-9 mr-3 sm:h-11"
+              alt="Kindtime Logo"
+            />
           </a>
           <button
             data-collapse-toggle="navbar-default"

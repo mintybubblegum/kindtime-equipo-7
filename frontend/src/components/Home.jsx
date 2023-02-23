@@ -1,20 +1,20 @@
-import React, { useState, useEffect }  from 'react'
-import Searchbar from './partials/Searchbar'
-import Card from '../components/partials/Card'
-import axios from 'axios'
+import React, { useState, useEffect } from "react";
+import Searchbar from "./partials/Searchbar";
+import Card from "../components/partials/Card";
+import axios from "axios";
 
 export default function Home() {
-  const [data, setData] = useState([])
+  const [data, setData] = useState([]);
 
   const getData = async () => {
-    const { data } = await axios.get('http://localhost:8000/api/servicesApi');
-    setData(data.services)
-    console.log(data.services)
-  }
+    const { data } = await axios.get("http://localhost:8000/api/servicesApi");
+    setData(data.services);
+    console.log(data.services);
+  };
 
   useEffect(() => {
-    getData()
-  }, [])
+    getData();
+  }, []);
 
   return (
     <div className="px-6 mt-6 mb-6 flex flex-col justify-center gap-6 md:px-12 lg:px-40">
@@ -33,14 +33,15 @@ export default function Home() {
       </center>
       <Searchbar />
       <Card />
-      {data && data.map((service)=>{
-        return(
-          <div>
-            <h1>{service.name}</h1>
-            <p>{service.title}</p>
-          </div>
-        )
-      })}
+      {data &&
+        data.map((service) => {
+          return (
+            <div>
+              <h1>{service.name}</h1>
+              <p>{service.title}</p>
+            </div>
+          );
+        })}
     </div>
   );
 }
