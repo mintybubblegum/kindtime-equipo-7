@@ -1,4 +1,4 @@
-#<div align="center"><img src="/frontend/public/readme-img/logo-small" width="400"/>KindTime</div>
+#<div align="center"><img src="/frontend/public/readme-img/logo-small.png" width="400"/>KindTime</div>
 
 ⚠️OUR STABLE AND LATEST VERSION IS CURRENTLY IN DEVELOP⚠️
 
