@@ -7,13 +7,13 @@ use App\Http\Controllers\ServiceController;
 
 
 
-Auth::routes();
-Route::get('/', function () { return view('auth.login');});
+// Auth::routes();
+// Route::get('/', function () { return view('auth.login');});
 
-Route::get('/', function () { return view('home');}); Auth::routes(); 
+// Route::get('/', function () { return view('home');}); Auth::routes();
 
-Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
+// Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
 
-Route::resource('services', App\Http\Controllers\ServiceController::class)->middleware('auth'); 
+// Route::resource('services', App\Http\Controllers\ServiceController::class)->middleware('auth');
 
 

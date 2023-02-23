@@ -25,10 +25,11 @@ class ServiceController extends Controller
      */
     public function create()
     {
-        //
-        $service = new Service();
-        return view('create', compact('service'));
+      //
+      $service = new Service();
+      return view('create', compact('service'));
     }
+
     public function store(Request $request)
     {
         $service = new Service();
@@ -38,17 +39,17 @@ class ServiceController extends Controller
         return response()->json(['message' => 'Service created successfully', 'service' => $service], 201);
     }
 
-    public function show($id)
+    public function show(Service $service)
     {
-        $service = Service::find($id);
-
-        return view('show', compact('service'));
+      return response()->json([
+        'service'=>$service
+    ]);
     }
 
 
     public function edit($id)
     {
-        return Service::find($id);
+      return Service::find($id);
     }
 
 
