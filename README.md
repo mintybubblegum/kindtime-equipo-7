@@ -2,9 +2,9 @@
 
 ----
 
-⚠️OUR STABLE AND LATEST VERSION IS CURRENTLY IN DEVELOP⚠️
+## ⚠️OUR STABLE AND LATEST VERSION IS CURRENTLY IN DEVELOP⚠️
 
-Our motto: 'We share life with your local elders. Join the community!'
+## Our motto: 'We share life with your local elders. Join the community!'
 
 We have developed this marketplace framed in the category of community services to the elderly, contributing to their wellness and their loved ones. Doing so we improve the support of this vulnerable collective.
 
@@ -13,22 +13,22 @@ During COVID-19 times our elders were a part of the population that suffered the
 ***
 
 This project is part of Hackathon F5 with 'Fundación La Caixa' as our client. We have 48 hours to create a marketplace with the following guidelines:
-1. CHOOSE WHAT YOUR MARKETPLACE IS ABOUT
+## 1. CHOOSE WHAT YOUR MARKETPLACE IS ABOUT
 - What kind of content are you going to have in it?
 - Who is your target audience?
 - How are you going to improve people's lives?
 
-2. CHOOSE A CATCHY NAME
-3. SHAPE THE CONTENT OF YOUR CARDS
+## 2. CHOOSE A CATCHY NAME
+## 3. SHAPE THE CONTENT OF YOUR CARDS
 - Which attributes does your card have?
 - Which values could those attributes take?
 - Which attributes are mandatory and which ones aren't?
 
-4. ADD BASIC FUNCTIONALITY
+## 4. ADD BASIC FUNCTIONALITY
 - Homepage with card lists
 - Show view of a specific card
 
-5. ADD EXTRA FUNCTIONALITIES
+## 5. ADD EXTRA FUNCTIONALITIES
 - Contact form to be in touch with the company (in development)
 - Search bar (in development)
 - About us (in development)
