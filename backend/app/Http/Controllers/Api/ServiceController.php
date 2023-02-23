@@ -34,7 +34,8 @@ class ServiceController extends Controller
         $service = new Service();
         $service->name = $request->name;
         $service->save();
-
+    
+        return response()->json(['message' => 'Service created successfully', 'service' => $service], 201);
     }
 
     public function show($id)
@@ -54,13 +55,12 @@ class ServiceController extends Controller
     public function update(Request $request, $id)
     {
         $service = Service::find($id);
-        $service->name = $request->service_name;
+        $service->name = $request->name;
         $service->save();
 
         return $service;
     }
 
-  
     public function destroy($id)
     {
         Service::find($id)->delete();

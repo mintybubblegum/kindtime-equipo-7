@@ -1,4 +1,5 @@
 import React, { useState, useEffect }  from 'react'
+import React, { useState, useEffect }  from 'react'
 import Searchbar from './partials/Searchbar'
 import Card from '../components/partials/Card'
 import axios from 'axios'
