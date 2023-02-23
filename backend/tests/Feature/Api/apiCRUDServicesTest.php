@@ -24,8 +24,18 @@ class apiCRUDServicesTest extends TestCase
 		// We will only assert that the response returns a 200 status for now.
 		$response->assertOk(); 
 
-        // Add the assertion that will prove that we receive what we need 
+     // Add the assertion that will prove that we receive what we need 
 		// from the response.
+		$response->assertJson([
+			'data' => [
+				[
+					'name' => $service->name,
+					'title' => $service->title,  
+					'price' => $service->price,  
+					'description-sm' => $service->description-sm,
+				]
+			]
+		]);
 	
 	}
 
