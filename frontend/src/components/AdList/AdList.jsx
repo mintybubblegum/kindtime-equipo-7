@@ -42,7 +42,6 @@ const AdList = () => {
   useEffect(() => {
     //onLoad() load api¿?
     setAdList(adApiService.getAllAds());
-    console.log("===================API=============", adApiService);
   }, []);
 
   return (
