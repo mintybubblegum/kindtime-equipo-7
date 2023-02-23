@@ -65,9 +65,9 @@ This project is part of Hackathon F5 with 'Fundación La Caixa' as our client. W
 
 <div style="heigth:auto; display:flex; flex-wrap:wrap; justify-content:center; padding:1rem">
 
-| Home view sketch | Show view sketch | Home view mockup | Show view mockup | Create view mockup |
-| --- | --- | --- | --- | --- |
-| <img style="width:150px;" src="/frontend/public/readme-img/sketch-view.png" alt="Home view"/> | <img style="width:150px;" src="/frontend/public/readme-img/sketch-show.png/210434007-f0b7288b-e031-472a-8cd2-6970ef1cc6d5.png" alt="Show view"/> | <img style="width:150px;" src="/frontend/public/readme-img/view.png" alt="Home view"/> | <img style="width:150px;" src="/frontend/public/readme-img/show.png" alt="Show view"/>
+| Home view sketch | Show view sketch | Home view mockup | Show view mockup |
+| --- | --- | --- | --- |
+| <img style="width:150px;" src="/frontend/public/readme-img/sketch-view.png" alt="Home view"/> | <img style="width:150px;" src="/frontend/public/readme-img/sketch-show.png" alt="Show view"/> | <img style="width:150px;" src="/frontend/public/readme-img/view.png" alt="Home view"/> | <img style="width:150px;" src="/frontend/public/readme-img/show.png" alt="Show view"/>
 
 </div>
 
@@ -135,7 +135,7 @@ To run the tests, execute the following command(s)
 ```bash
   php artisan test
 ```
-<img width="259" alt="Screenshot test" src="https://user-images.githubusercontent.com/98114939/213283029-289028e1-0b25-445c-823d-eb97f476d4e6.png">
+(in development)
 
 ```bash
   vendor/bin/phpunit tests
@@ -152,14 +152,7 @@ To run the tests, execute the following command(s)
 ***
 
 ## Next Steps
-- Establish pagination order
-- Implement trip management in the user's profile
-- Display unavailable trips by occupancy
-- Send confirmation email of booked trips
-- Dropdown of destination images
-- Checkbox in preferences
-- Star button functionality to add trip to slider
-- Toogle button "booking" and "unbooking"
+(in development)
 
 
 
