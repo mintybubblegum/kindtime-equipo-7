@@ -50,7 +50,7 @@ This project is part of Hackathon F5 with 'Fundación La Caixa' as our client. W
 ## Team Members
 
 | Name | Role | <img src="https://github.com/Yelose/Yelose/blob/main/img/github.png" width="30px" height="30px"> |
-| :--- | :---: | :---: |
+| :---: | :---: | :---: |
 | Paloma Babot |  Scrum Master | https://github.com/Uxoa |
 | Guillem Martínez | Product Owner | https://github.com/guillemmj33 |
 | Noa Trujillo | Developer| https://github.com/mintybubblegum |
@@ -67,10 +67,16 @@ This project is part of Hackathon F5 with 'Fundación La Caixa' as our client. W
 
 <div style="heigth:auto; display:flex; flex-wrap:wrap; justify-content:center; padding:1rem">
 
-| Mobile home view sketch | Mobile show view sketch | Mobile home view mockup | Mobile show view mockup | Desktop home view sketch | Desktop show view sketch | Desktop about view | Desktop home | Desktop show |
-| --- | --- | --- | --- | --- | --- | --- | --- |
+|   Mobile home view sketch   |   Mobile show view sketch   |   Mobile home mockup   |   Mobile show mockup   | 
+| --- | --- | --- | --- |
   
-| <img style="width:150px;" src="/frontend/public/readme-img/sketch-view.png" alt="Home view"/> | <img style="width:150px;" src="/frontend/public/readme-img/sketch-show.png" alt="Show view"/> | <img style="width:150px;" src="/frontend/public/readme-img/view.png" alt="Home view"/> | <img style="width:150px;" src="/frontend/public/readme-img/show.png" alt="Show view"/> | <img style="width:150px;" src="/frontend/public/readme-img/desktopHome.png" alt="Desktop about"/> | <img style="width:150px;"/> | <img style="width:150px;" src="/frontend/public/readme-img/desktopAbout.png" alt="Desktop about"/> | <img style="width:150px;"/> | <img style="width:200px;" src="/frontend/public/readme-img/desktopShow.png" alt="Desktop show"/> | <img style="width:200px;" src="/frontend/public/readme-img/desktopHomeSkech.png" alt="Desktop home"/> | <img style="width:200px;" src="/frontend/public/readme-img/desktopShowSkech.png" alt="Desktop show"/>
+| <img style="width:170px;" src="/frontend/public/readme-img/sketch-view.png" alt="Sketch Home view"/> | <img style="width:170px;" src="/frontend/public/readme-img/sketch-show.png" alt="Sketch Show view"/> | <img style="width:170px;" src="/frontend/public/readme-img/view.png" alt="Mockup Home view"/> | <img style="width:170px;" src="/frontend/public/readme-img/show.png" alt="Mockup Show view"/> |
+| --- | --- | --- | --- |
+
+| Desktop home view sketch | Desktop show view sketch | Desktop home view mockup | Desktop show view mockup |
+| --- | --- | --- | --- |
+
+| <img style="width:210px;" src="/frontend/public/readme-img/desktopHomeSkech.png" alt="Desktop home"/> | <img style="width:210px;" src="/frontend/public/readme-img/desktopShowSkech.png" alt="Desktop show"/> | <img style="width:210px;" src="/frontend/public/readme-img/desktopHome.png" alt="Desktop about"/>   | <img style="width:210px;" src="/frontend/public/readme-img/desktopShow.png" alt="Desktop show"/> |
 
 </div>
 
