@@ -3,7 +3,7 @@ import styles from "./Ad.module.css";
 
 const Ad = ({ ad }) => {
   return (
-    <div className={`card ${styles.card}`}>
+    <div className={`card ${styles.card}`} data-testid="adCard">
       <img
         className={`card-img-top ${styles.cardImgTop}`}
         src={ad.image}
@@ -13,10 +13,16 @@ const Ad = ({ ad }) => {
         <h5 className="card-title">{ad.title}</h5>
         <p className="card-text">{ad.description}</p>
         <div className={styles.cardBtnsContainer}>
-          <button className={`${styles.btn} ${styles.btnMore}`}>
+          <button
+            className={`${styles.btn} ${styles.btnMore}`}
+            data-testid="seeMoreBtn"
+          >
             See more {"->"}
           </button>
-          <button className={`${styles.btn} ${styles.btnContact}`}>
+          <button
+            className={`${styles.btn} ${styles.btnContact}`}
+            data-testid="contactBtn"
+          >
             Contact
           </button>
         </div>
