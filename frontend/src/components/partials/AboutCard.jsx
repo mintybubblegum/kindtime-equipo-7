@@ -3,9 +3,9 @@ import AboutImg from '../../assets/about.jpg'
 
 export default function AboutCard() {
     return (
-        <div className="flex flex-col md:flex-row my-5 m-auto">
-            <img className="" src={AboutImg} alt="img" />
-            <div className="p-5 bg-blue w-auto">
+        <div className="flex flex-col items-center jsutify-center md:flex-row my-5">
+            <img className="w-auto max-h-96" src={AboutImg} alt="img" />
+            <div className="p-5 bg-blue w-auto max-w-md">
                 <h5 className="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">About Us</h5>
                 <p className="mb-3 font-normal text-white dark:text-gray-500">We are the first community dedicated 100% to the care of our seniors in a free way. We share your life and help you to make your day-to-day life easier.</p>
 
