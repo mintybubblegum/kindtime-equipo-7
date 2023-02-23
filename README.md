@@ -1,4 +1,4 @@
-<div align="center"><img src="/frontend/public/readme-img/logo-small.png" width="200"/>#KindTime</div>
+<div align="center"><img src="/frontend/public/readme-img/logo.png" width="200"/></div>
 
 ⚠️OUR STABLE AND LATEST VERSION IS CURRENTLY IN DEVELOP⚠️
 
