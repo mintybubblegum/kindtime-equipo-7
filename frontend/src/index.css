@@ -75,3 +75,6 @@ button:focus-visible {
   --grey: #d9d9d9;
   --yellow: #f9c74b;
 }
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
