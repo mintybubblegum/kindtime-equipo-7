@@ -29,11 +29,14 @@ This project is part of Hackathon F5 with 'Fundación La Caixa' as our client. W
 
 | Name | Role | <img src="https://github.com/Yelose/Yelose/blob/main/img/github.png" width="30px" height="30px"> |
 | :--- | :---: | :---: |
-| Adriana Aguilar |  Scrum Master | https://github.com/adrianaguilaruiz |
-| Raquel Palomo | Product Owner | https://github.com/raquel2002x |
-| Beatriz de Ávila | Developer | https://github.com/Beadeavila |
-| Himorell Jaramillo | Developer | https://github.com/Himorell |
+| Paloma Babot |  Scrum Master | https://github.com/adrianaguilaruiz |
 | Noa Trujillo | Developer| https://github.com/mintybubblegum |
+| Guillem Martínez | Product Owner | https://github.com/guillemmj33 |
+| Mila Galiano | Developer | https://github.com/Beadeavila |
+| Jaume Vidal | Developer | https://github.com/JaumeViBu |
+| Alexander Romero | Developer| https://github.com/ChaanChanChan |
+| Valery Suárez | Developer| https://github.com/ValerySuarez22 |
+| Maricarmen Chueco | Developer| https://github.com/marchuovi |
 
 ***
 
@@ -53,11 +56,13 @@ This project is part of Hackathon F5 with 'Fundación La Caixa' as our client. W
 
 - HTML 5
 - CSS 3
-- BootStrap 5
+- Tailwind CSS
 - PHP 8.1.10
+- React JS
 - Laravel Framework 9.44.0
 - MySQL
 - DrawSQL
+- Axios
 ***
 
 ## How to install this project
