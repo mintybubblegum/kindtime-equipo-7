@@ -1,4 +1,6 @@
-<div align="center"><img src="/frontend/public/readme-img/logo.png" width="200"/></div>
+<div align="center"><img src="/frontend/public/readme-img/logo.png" width="400"/></div>
+
+----
 
 ⚠️OUR STABLE AND LATEST VERSION IS CURRENTLY IN DEVELOP⚠️
 
