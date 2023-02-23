@@ -29,7 +29,7 @@ This project is part of Hackathon F5 with 'Fundación La Caixa' as our client. W
 
 | Name | Role | <img src="https://github.com/Yelose/Yelose/blob/main/img/github.png" width="30px" height="30px"> |
 | :--- | :---: | :---: |
-| Paloma Babot |  Scrum Master | https://github.com/adrianaguilaruiz |
+| Paloma Babot |  Scrum Master | https://github.com/Uxoa |
 | Noa Trujillo | Developer| https://github.com/mintybubblegum |
 | Guillem Martínez | Product Owner | https://github.com/guillemmj33 |
 | Mila Galiano | Developer | https://github.com/Beadeavila |
