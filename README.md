@@ -69,7 +69,7 @@ This project is part of Hackathon F5 with 'Fundación La Caixa' as our client. W
 
 | Home view sketch | Show view sketch | Home view mockup | Show view mockup |
 | --- | --- | --- | --- |
-| <img style="width:150px;" src="/frontend/public/readme-img/sketch-view.png" alt="Home view"/> | <img style="width:150px;" src="/frontend/public/readme-img/sketch-show.png" alt="Show view"/> | <img style="width:150px;" src="/frontend/public/readme-img/view.png" alt="Home view"/> | <img style="width:150px;" src="/frontend/public/readme-img/show.png" alt="Show view"/> <img style="width:150px;"/> <img style="width:150px;" src="/frontend/public/readme-img/Desktop-home - 4.png" alt="Desktop about"/> <img style="width:150px;"/> <img style="width:150px;" src="/frontend/public/readme-img/Desktop-about.png" alt="Desktop about"/> <img style="width:150px;"/> <img style="width:150px;" src="/frontend/public/readme-img/Desktop-show - 4.png" alt="Desktop show"/>
+| <img style="width:150px;" src="/frontend/public/readme-img/sketch-view.png" alt="Home view"/> | <img style="width:150px;" src="/frontend/public/readme-img/sketch-show.png" alt="Show view"/> | <img style="width:150px;" src="/frontend/public/readme-img/view.png" alt="Home view"/> | <img style="width:150px;" src="/frontend/public/readme-img/show.png" alt="Show view"/> | <img style="width:150px;" src="/frontend/public/readme-img/Desktop-home - 4.png" alt="Desktop about"/> | <img style="width:150px;"/> | <img style="width:150px;" src="/frontend/public/readme-img/Desktop-about.png" alt="Desktop about"/> | <img style="width:150px;"/> | <img style="width:150px;" src="/frontend/public/readme-img/Desktop-show - 4.png" alt="Desktop show"/>
 
 </div>
 
