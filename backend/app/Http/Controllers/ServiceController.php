@@ -20,9 +20,8 @@ class ServiceController extends Controller
     public function index()
     {
         $services = Service::paginate();
-
-        return view('service.index', compact('services'))
-            ->with('i', (request()->input('page', 1) - 1) * $services->perPage());
+    
+        return response()->json(['services' => $services]);
     }
 
     /**
@@ -61,22 +60,21 @@ class ServiceController extends Controller
     public function show($id)
     {
         $service = Service::find($id);
-
-        return view('service.show', compact('service'));
+    
+        return response()->json(['service' => $service]);
     }
+    // /**
+    //  * Show the form for editing the specified resource.
+    //  *
+    //  * @param  int $id
+    //  * @return \Illuminate\Http\Response
+    //  */
+    // public function edit($id)
+    // {
+    //     $service = Service::find($id);
 
-    /**
-     * Show the form for editing the specified resource.
-     *
-     * @param  int $id
-     * @return \Illuminate\Http\Response
-     */
-    public function edit($id)
-    {
-        $service = Service::find($id);
-
-        return view('service.edit', compact('service'));
-    }
+    //     return view('service.edit', compact('service'));
+    // }
 
     /**
      * Update the specified resource in storage.
@@ -86,14 +84,12 @@ class ServiceController extends Controller
      * @return \Illuminate\Http\Response
      */
     public function update(Request $request, Service $service)
-    {
-        request()->validate(Service::$rules);
+{
+    $service->name = $request->name;
+    $service->save();
 
-        $service->update($request->all());
-
-        return redirect()->route('services.index')
-            ->with('success', 'Service updated successfully');
-    }
+    return response()->json(['message' => 'Service updated successfully', 'service' => $service]);
+}
 
     /**
      * @param int $id
