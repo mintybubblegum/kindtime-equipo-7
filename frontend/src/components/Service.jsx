@@ -1,48 +1,37 @@
 import React, { useState, useEffect } from 'react'
 import { useParams } from 'react-router-dom'
 import Searchbar from './partials/Searchbar'
+import Back from './partials/Back'
 
 export default function Service() {
-  const params = useParams()
-
-  const [search, setSearch] = useState('')
-
-  const [singleData, setSingleData] = useState(null)
-  const [loading, setLoading] = useState(true)
-  const [error, setError] = useState(null)
+  const { id } = useParams()
+  const [service, setService] = useState(null)
 
   useEffect(() => {
-    const getSingleData = async (id) => {
-      try {
-        const response = await axios.get(
-          `http://localhost:8000/api/services/${id}`
-        )
-        console.log(response.data)
-        setSingleData(response.data)
-        setError(null)
-      } catch (err) {
-        setError(err.message)
-        setData(null)
-      } finally {
-        setLoading(false)
-      }
-    };
-    getSingleData(params.id, setSingleData)
-  }, [])
+    // Fetch the details for the specified user
+    fetch(`http://localhost:8000/api/services/${id}`)
+      .then(response => response.json())
+      .then(data => setService(data))
+      .catch(error => console.error(error))
+  }, [id])
+
+  if (!service) {
+    return <div>Loading...</div>;
+  }
 
   return (
-    <div className="mt-4 px-2">
+    <div className="mt-4 px-2 md:px-12 lg:px-52">
+      <Back />
       <Searchbar />
-      <h1>{params.id}</h1>
       <div className="mt-4 mb-6 max-w-sm bg-dark-blue border border-gray rounded-lg shadow dark:bg-blue dark:border-gray-700">
         <a href="#">
-            <img className="rounded-t-lg" src={params.serviceImg} alt="img" />
+            <img className="rounded-t-lg" src={service.serviceImg} alt="img" />
         </a>
         <div className="p-5">
             <a href="#">
-                <h5 className="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">{params.title}</h5>
+                <h5 className="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">{service.title}</h5>
             </a>
-            <p className="mb-3 font-normal text-gray-700 dark:text-gray-500">{params.descriptionLg}</p>
+            <p className="mb-3 font-normal text-gray-700 dark:text-gray-500">{service.descriptionLg}</p>
             <div className="flex justify-between">
               <a href="/service" className="inline-flex items-center px-3 py-2 text-sm font-bold text-center text-white bg-dark-blue rounded-lg hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-slate-800 dark:hover:bg-blue-700 dark:focus:ring-blue-800">
                   See more
