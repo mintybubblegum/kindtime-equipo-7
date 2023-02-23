@@ -9,33 +9,28 @@ use Illuminate\Foundation\Testing\RefreshDatabase;
 
 class apiCRUDServicesTest extends TestCase
 {
-    /**
-     * A basic feature test example.
-     */
     use RefreshDatabase;
 	
-	/** @test */
 	public function test_canGetAllServices()
 	{
-		// Create Property so that the response returns it.
+
 		$service = Service::factory()->create();
 		
 		$response = $this->getJson(route('servicesApi'));
-		// We will only assert that the response returns a 200 status for now.
+
 		$response->assertOk(); 
 
   
 		$response->assertJson([
-			'data' => [
+			'services' => [
 				[
 					'serviceImg'=> $service->serviceImg,
 					'name' => $service->name,
-					'title' => $service->title, 
-					'descriptionSm'=> $service->descriptionSm,
-					'descriptionLg'=> $service->descriptionLg,
-					'location'=> $service->location,
-					'email'=> $service->email,
-					'price' => $service->price,  
+					'title' => $service->title,
+					'descriptionSm' => $service->descriptionSm,
+					'descriptionLg' => $service->descriptionLg,
+					'location' => $service->location,
+					'email' => $service->email
 				
 				]
 			]
