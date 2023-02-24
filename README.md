@@ -29,10 +29,10 @@ This project is part of Hackathon F5 with 'Fundación La Caixa' as our client. W
 - Show view of a specific card
 
 ## 5. ADD EXTRA FUNCTIONALITIES
-- Contact form to be in touch with the company (in development)
-- Search bar (in development)
-- About us (in development)
-- Contact the client (in development)
+- Contact form to be in touch with the company
+- Search bar
+- About us
+- Contact the client
 
 ***
 
