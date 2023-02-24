@@ -2,9 +2,7 @@
 
 ----
 
-## ⚠️OUR STABLE AND LATEST VERSION IS CURRENTLY IN DEVELOP⚠️
-
-## Our motto: 'We share life with your local elders. Join the community!'
+## <div align="center"> Our motto: 'We share life with your local elders. Join the community!'</div>
 
 We have developed this marketplace framed in the category of community services to the elderly, contributing to their wellness and their loved ones. Doing so we improve the support of this vulnerable collective.
 
