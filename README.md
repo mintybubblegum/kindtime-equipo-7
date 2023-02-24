@@ -139,7 +139,7 @@ You will need a text editor and perform the following steps:
 ***
 
 ## Tests
-To run the tests, execute the following command(s)
+To run the API tests, execute the following command(s)
 ```bash
   php artisan test
 ```
