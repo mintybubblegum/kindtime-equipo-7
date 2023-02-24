@@ -143,13 +143,13 @@ To run the tests, execute the following command(s)
 ```bash
   php artisan test
 ```
-(in development)
+<img width="370" alt="Screenshot API test 01" src="/backend/public/img/test-api01.PNG">
 
 ```bash
   vendor/bin/phpunit tests
 ```
 
-<img width="370" alt="Screenshot test" src="https://user-images.githubusercontent.com/98114939/213283195-6b66fa87-9893-4681-9ee5-42ae2105b08b.png">
+<img width="370" alt="Screenshot API test 02" src="/backend/public/img/test-api02.PNG">
 
 ***
 
