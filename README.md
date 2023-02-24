@@ -29,10 +29,10 @@ This project is part of Hackathon F5 with 'Fundación La Caixa' as our client. W
 - Show view of a specific card
 
 ## 5. ADD EXTRA FUNCTIONALITIES
-- Contact form to be in touch with the company (in development)
-- Search bar (in development)
-- About us (in development)
-- Contact the client (in development)
+- Contact form to be in touch with the company
+- Search bar
+- About us
+- Contact the client
 
 ***
 
@@ -50,7 +50,7 @@ This project is part of Hackathon F5 with 'Fundación La Caixa' as our client. W
 ## Team Members
 
 | Name | Role | <img src="https://github.com/Yelose/Yelose/blob/main/img/github.png" width="30px" height="30px"> |
-| :--- | :---: | :---: |
+| :---: | :---: | :---: |
 | Paloma Babot |  Scrum Master | https://github.com/Uxoa |
 | Guillem Martínez | Product Owner | https://github.com/guillemmj33 |
 | Noa Trujillo | Developer| https://github.com/mintybubblegum |
@@ -67,9 +67,16 @@ This project is part of Hackathon F5 with 'Fundación La Caixa' as our client. W
 
 <div style="heigth:auto; display:flex; flex-wrap:wrap; justify-content:center; padding:1rem">
 
-| Home view sketch | Show view sketch | Home view mockup | Show view mockup |
+|   Mobile home view sketch   |   Mobile show view sketch   |   Mobile home mockup   |   Mobile show mockup   | 
 | --- | --- | --- | --- |
-| <img style="width:150px;" src="/frontend/public/readme-img/sketch-view.png" alt="Home view"/> | <img style="width:150px;" src="/frontend/public/readme-img/sketch-show.png" alt="Show view"/> | <img style="width:150px;" src="/frontend/public/readme-img/view.png" alt="Home view"/> | <img style="width:150px;" src="/frontend/public/readme-img/show.png" alt="Show view"/>
+  
+| <img style="width:170px;" src="/frontend/public/readme-img/sketch-view.png" alt="Sketch Home view"/> | <img style="width:170px;" src="/frontend/public/readme-img/sketch-show.png" alt="Sketch Show view"/> | <img style="width:170px;" src="/frontend/public/readme-img/view.png" alt="Mockup Home view"/> | <img style="width:170px;" src="/frontend/public/readme-img/show.png" alt="Mockup Show view"/> |
+| --- | --- | --- | --- |
+
+| Desktop home view sketch | Desktop show view sketch | Desktop home view mockup | Desktop show view mockup |
+| --- | --- | --- | --- |
+
+| <img style="width:205px;" src="/frontend/public/readme-img/desktopHomeSkech.png" alt="Desktop home"/> | <img style="width:205px;" src="/frontend/public/readme-img/desktopShowSkech.png" alt="Desktop show"/> | <img style="width:205px;" src="/frontend/public/readme-img/desktopHome.png" alt="Desktop about"/>   | <img style="width:205px;" src="/frontend/public/readme-img/desktopShow.png" alt="Desktop show"/> |
 
 </div>
 
@@ -132,17 +139,17 @@ You will need a text editor and perform the following steps:
 ***
 
 ## Tests
-To run the tests, execute the following command(s)
+To run the API tests, execute the following command(s)
 ```bash
   php artisan test
 ```
-(in development)
+<img width="370" alt="Screenshot API test 01" src="/backend/public/img/test-api01.PNG">
 
 ```bash
   vendor/bin/phpunit tests
 ```
 
-<img width="370" alt="Screenshot test" src="https://user-images.githubusercontent.com/98114939/213283195-6b66fa87-9893-4681-9ee5-42ae2105b08b.png">
+<img width="370" alt="Screenshot API test 02" src="/backend/public/img/test-api02.PNG">
 
 ***
 

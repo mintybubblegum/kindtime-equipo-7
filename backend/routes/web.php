@@ -17,3 +17,6 @@ use App\Http\Controllers\ServiceController;
 // Route::resource('services', App\Http\Controllers\ServiceController::class)->middleware('auth');
 
 
+Route::get('/', function () {
+    return view('welcome'); 
+});

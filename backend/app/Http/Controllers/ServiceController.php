@@ -10,7 +10,7 @@ use App\Http\Controllers\Controller;
  * Class ServiceController
  * @package App\Http\Controllers
  */
-class ServiceController extends Controller
+class ServiceController extends Controller 
 {
     /**
      * Display a listing of the resource.
