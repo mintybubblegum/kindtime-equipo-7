@@ -74,7 +74,7 @@ This project is part of Hackathon F5 with 'Fundación La Caixa' as our client. W
 | Desktop home view sketch | Desktop show view sketch | Desktop home view mockup | Desktop show view mockup |
 | --- | --- | --- | --- |
 
-| <img style="width:200px;" src="/frontend/public/readme-img/desktopHomeSkech.png" alt="Desktop home"/> | <img style="width:200px;" src="/frontend/public/readme-img/desktopShowSkech.png" alt="Desktop show"/> | <img style="width:200px;" src="/frontend/public/readme-img/desktopHome.png" alt="Desktop about"/>   | <img style="width:200px;" src="/frontend/public/readme-img/desktopShow.png" alt="Desktop show"/> |
+| <img style="width:190px;" src="/frontend/public/readme-img/desktopHomeSkech.png" alt="Desktop home"/> | <img style="width:190px;" src="/frontend/public/readme-img/desktopShowSkech.png" alt="Desktop show"/> | <img style="width:190px;" src="/frontend/public/readme-img/desktopHome.png" alt="Desktop about"/>   | <img style="width:190px;" src="/frontend/public/readme-img/desktopShow.png" alt="Desktop show"/> |
 
 </div>
 
