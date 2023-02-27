@@ -158,7 +158,7 @@ To run the API tests, execute the following command(s)
 ***
 
 ## Next Steps
-(in development)
+- Implement CRUD in the creation of new services.
 
 
 
